@@ -1,0 +1,220 @@
+body{
+  background-color: #191b1c;
+  color: #5d5d5d !important;
+  font-family: Work Sans,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  padding: 0 20%;
+}
+
+svg {
+  height: auto;
+  width: 200px
+}
+
+#logo svg{
+  width: 114px
+}
+
+ul{
+  list-style: none
+}
+
+a{
+ text-decoration: none;
+ color: #5d5d5d;
+}
+.nav{
+ padding: 2em 0 .5em;
+}
+
+.nav a{
+ transition: all .2s ease-in-out;
+}
+
+.status p{
+ font-family: 'Coda';
+ font-size: 25px;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ color: rgba(0,0,0,0.7);
+ font-weight: bold;
+ transition: all .2s ease-in-out;
+}
+
+.status p:hover{
+ transform: translateY(-2px)
+}
+
+.logo-letter{
+ opacity: 1;
+ fill: #fff;
+}
+
+.logo-shadow{
+ transform-origin: 10% 10%;
+ transform: scale(0);
+ opacity: 0;
+ fill: #60d5b9;
+}
+
+.logo-circle{
+ animation-name: bubble;
+ animation-duration: .6s;
+ animation-timing-function: cubic-bezier(.64,.57,.67,1.53);
+}
+
+.discord-logo{
+ position: relative;
+ top: -10px;
+}
+
+.intro{
+ line-height: 68px;
+ font-size: 2.8rem;
+}
+
+.intro h1{
+ margin-top: 1.25em;
+ margin-bottom: 2.5em;
+ line-height: 68px;
+ font-size: 2.5rem;
+ max-width: 840px;
+}
+
+.intro a{
+ transition: all .2s ease-in-out;
+}
+
+.intro a:hover, .contact-me a:hover{
+ text-decoration: none;
+ color: #5d5d5d;
+}
+
+.green-text{
+ color: #29c6b2;
+}
+.status h3{
+ margin-bottom: 1em;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ font-size: 0.9rem;
+ font-weight: 400;
+}
+
+.status svg{
+ fill: #5d5d5d;
+}
+
+.nav-menu-item{
+ color: #5d5d5d;
+}
+
+.nav-menu-item:hover{
+ color: #29c6b2;
+}
+
+.projects{
+ background-color: #fbfbfb;
+ margin-top: 3em;
+ padding-top: 8em;
+ padding-bottom: 8em;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+aside .secondary-header{
+ width: 90%
+}
+.work-items{
+ padding: 0;
+ margin: 0;
+}
+.work-items li{
+ padding-right: 5%;
+ padding-left: 5%;
+ padding-top: 18px;
+ padding-bottom: 20px;
+ border-bottom: 1px solid #dadada;
+ transition: all .3s ease;
+}
+
+.work-items li:hover{
+ transform: translateY(-3px);
+    border-color: transparent;
+}
+
+.projects-container .title-container{
+ padding: 25px;
+}
+
+.projects-container .title-container h4{
+ text-align: center;
+}
+
+.projects-container a, aside a, .projects-container a:hover{
+ color: #5d5d5d;
+ text-decoration: none;
+}
+.projects-container a:hover, aside a:hover{
+ text-decoration: none
+}
+
+aside{
+ padding: 8em 0;
+}
+
+aside li:hover{
+ background-color: #29c6b2;
+}
+
+aside li:hover a, aside li:hover .work-title{
+ color: #fff;
+}
+
+.img-container img{
+ height: auto;
+ width: 100%;
+}
+
+.social-container{
+ width: 90%;
+}
+
+.social-network ul li{
+ margin-right: 30px;
+ transition: all .3s ease;
+}
+
+.social-network ul li:hover{
+     transform: translateY(-3px);
+}
+
+.contact-me h2{
+ font-size: 2.2rem;
+ margin-bottom: 30px;
+}
+
+.social-network a{
+ color: #5d5d5d;
+ transition: color .25s ease;
+ letter-spacing: 2px;
+}
+
+.social-network a:hover{
+ color: #29c6b2;
+ letter-spacing: 2px;
+ text-decoration: none;
+}
+
+
+@keyframes bubble{
+  0% { transform: scale(.5); }
+ 65% { transform: scale(1.15); }
+ 70% { transform: scale(1.1); }
+ 80% { transform: scale(1); }
+ 85% { transform: scale(1.05); }
+ 90% { transform: scale(1); }
+ 100% { transform: scale(1); }
+}
