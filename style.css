@@ -5,7 +5,6 @@ body{
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.8;
-  padding: 0 20%;
 }
 
 svg {
@@ -174,11 +173,11 @@ aside li:hover a, aside li:hover .work-title{
 }
 
 .img-container img{
- height: auto;
+ height: 190px;
  width: 100%;
 }
 
-.social-container{
+.projects-content, .social-container{
  width: 90%;
 }
 
@@ -208,6 +207,43 @@ aside li:hover a, aside li:hover .work-title{
  text-decoration: none;
 }
 
+.project {
+ border-radius: 5px;
+ margin: 0 50px 70px 0;
+ box-shadow: 0 1px 3px rgba(0,0,0,0.03), 0 1px 2px rgba(51,51,51,.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.project:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.project article {
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.project article h2{
+ padding: 5% 5% 2% 5%;
+ height: 100%
+}
+.links {
+ background-color: #fff;
+ padding: 10px 0
+}
+.links a:first-child:hover .fa-github{
+ color: #3295d5
+}
+
+.links a:last-child:hover .fa-heart{
+ color: red
+}
+
+.links {
+ margin-top: 20px
+}
 
 @keyframes bubble{
   0% { transform: scale(.5); }

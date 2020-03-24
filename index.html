@@ -1,33 +1,41 @@
 <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - portfolio page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Coda&display=swap" rel="stylesheet">
-  <title>Portfolio</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css?family=Coda&display=swap" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/fc8cc3c5c9.js" crossorigin="anonymous"></script>
+  <title>portfolio</title>
 </head>
 <body>
   <header>
     <navbar class="nav">
       <div class="nav-container d-flex mx-2 row align-items-center w-100">
         <div id="logo" class="col-8">
-        <a href="http://danielrd.com/">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331.02 290.00" style="user-select: auto;"><defs style="user-select: auto;"><clipPath id="a" transform="translate(-2)" style="user-select: auto;"><ellipse cx="126.22" cy="125.73" rx="126.22" ry="124.73" fill="none" style="user-select: auto;"></ellipse></clipPath></defs><circle class="logo-circle" cx="125.22" cy="125.22" r="125.22" fill="#71f1d6" style="user-select: auto;"></circle><path class="logo-triangle" d="M97.09 241.83l-55.15 23.92c-1.51.66-2.6-.15-2.42-1.79l5.45-49" fill="#71f1d6" style="user-select: auto;"></path><g clip-path="url(#a)" style="user-select: auto;"><path class="logo-shadow" d="M254.06 148.5l-77-89.42H69.27v140.16a5.24 5.24 0 0 1-.46 2.24l73.24 85L215.67 372l57.67-67 57.67-67z" style="user-select: auto;"></path></g><path class="logo-letter" d="M179.79 62q21.33 20.85 21.33 59.16t-21.33 59.16q-21.34 20.85-59.16 20.85H69v-160h51.64q37.81-.03 59.15 20.83zm-14.43 104.61q15.39-16.37 15.4-45.46t-15.4-45.46Q150 59.33 122.57 59.33H88.39V183h34.18q27.43 0 42.79-16.39z" style="user-select: auto;"></path></svg>
-        </a>
+
         </div>
         <div class="col-4">        
           <ul class="d-flex ">
             <li class="px-5">
-            <a href="#" class="nav-menu-item text-decoration-none">Work</a><li>
+             <a href="#work" class="nav-menu-item text-decoration-none">Work</a><li>
             <li class="px-5">
-            <a href="#" class="nav-menu-item text-decoration-none">Contact</a>
-          </li>
+             <a href="#contact" class="nav-menu-item text-decoration-none">Contact</a>
+           </li>
           </ul>
         </div>
-    </div>      
+     </div>      
     </navbar>
     <div class="mx-4 intro">
       <h1>
@@ -46,173 +54,103 @@
     </div>
   </header>
   <main>
-  <section class="projects">
-    <div class="projects-container d-flex row flex-wrap">
-    <h2 class="col-12">Featured Work</h2>
-    <a href="https://afternoon-wave-75260.herokuapp.com/" class="col-6 p-2">
-      <article class="">
-      <div class="img-container">
-        <img src="./assets/images/fakebook.PNG" alt="Fakebook" />
-      </div>
-      <div class="title-container">
-        <h4>Steelseries e-commerce</h4>
-      </div>
+   <div class="projects">
+    <section class="projects-content mx-auto">
+    <div class="projects-container d-flex row flex-wrap justify-content-center">
+     <h2 class="col-12 px-0 text-center mb-3" id="work">Showcase</h2>
+     <div class="col-3 px-0 project">
+      <article>
+       <div class="img-container">
+        <img src="https://camo.githubusercontent.com/002dd0cc9e2a23d1373f1fbbc9ef47d00f1fb460/68747470733a2f2f6c68342e676f6f676c6575736572636f6e74656e742e636f6d2f56394a546d616f522d553173474e3041535466423575634b696c47495a58436e756878574a39525f65735954706251356e48683139584e4e6c7141636b306c347976765859754c435f4b35486d735f794248335033645964614643462d4c424237646d66655952333d7331353838" alt="weather-app">
+       </div>
+       <h2 class="text-center">Weather App</h2>
+       <div class="d-flex justify-content-around align-items-end links border-top">
+        <a href="https://github.com/ViriCruz/weather-app"><i class="fab fa-github"></i> Github</a>
+        <a href="https://viricruz.github.io/weather-app/"><i class="fas fa-heart"></i> Live Demo</a>
+       </div>
       </article>
-    </a>
-    <a href="#" class="col-6 p-2">
-      <article class="">
-      <div class="img-container">
-        <img src="http://danielrd.com/images/featured-work-engine.png" alt="" />
-      </div>
-      <div class="title-container">
-        <h4>Steelseries e-commerce</h4>
-      </div>
+     </div>
+     <div class="col-3 px-0 project">
+      <article>
+       <div class="img-container">
+        <img src="https://camo.githubusercontent.com/5aa17a3a9bd7574e378b01de6cef0e3c39893575/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f65567139544761613167577a2d54545a5865466f4a59702d786e4454325f7441687a677879754d4f7a447a3843734e6c4334597158324d6b5149356c4f4b48546869644459684b54444578644a684c6650314a7861664153684f4b327065786b7939376d444d44653d7331353838" alt="phaser-3-game">
+       </div>
+       <h2 class="text-center">RPG turn-based game with phaser 3</h2>
+       <div class="d-flex justify-content-around align-items-end links border-top">
+        <a href="https://github.com/ViriCruz/RPG_Game"><i class="fab fa-github"></i> Github</a>
+        <a href="https://morning-island-03937.herokuapp.com/"><i class="fas fa-heart"></i> Live Demo</a>
+       </div>
       </article>
-    </a>
-    <a href="#" class="col-6 p-2">
-      <article class="">
-      <div class="img-container">
-        <img src="http://danielrd.com/images/featured-work-engine.png" alt="" />
-      </div>
-      <div class="title-container">
-        <h4>Steelseries e-commerce</h4>
-      </div>
+     </div>
+     <div class="col-3 px-0 project">
+      <article>
+       <div class="img-container">
+        <img src="https://camo.githubusercontent.com/34944d26eadb9dc49565d6b756527e3dcb5c6d62/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f594d77394962564f376b4554684351764a6a2f67697068792e676966" alt="">
+       </div>
+       <h2 class="text-center">Restaurant Example Page</h2>
+       <div class="d-flex justify-content-around align-items-end links border-top">
+        <a href="https://github.com/ViriCruz/Restaurant"><i class="fab fa-github"></i> Github</a>
+        <a href="https://viricruz.github.io/Restaurant/"><i class="fas fa-heart"></i> Live Demo</a>
+       </div>
       </article>
-    </a>
-    <a href="#" class="col-6 p-2">
-      <article class="">
-      <div class="img-container">
-        <img src="http://danielrd.com/images/featured-work-engine.png" alt="" />
-      </div>
-      <div class="title-container">
-        <h4>Steelseries e-commerce</h4>
-      </div>
+     </div>
+     <div class="col-3 px-0 project">
+      <article>
+       <div class="img-container">
+        <img src="https://camo.githubusercontent.com/6dd7a5b29d1e3dec895a763f792787dfdd0fb440/68747470733a2f2f692e706f7374696d672e63632f627632786235476e2f436170747572652e706e67" alt="facebook basic features clone">
+       </div>
+       <h2 class="text-center">Facebook basic features clone</h2>
+       <div class="d-flex justify-content-around align-items-end links border-top">
+        <a href="https://github.com/ViriCruz/Fakebook"><i class="fab fa-github"></i> Github</a>
+        <a href="https://boiling-fjord-34486.herokuapp.com/"><i class="fas fa-heart"></i> Live Demo</a>
+       </div>
       </article>
-    </a>
+     </div>
+     <div class="col-3 px-0 project">
+      <article>
+       <h2 class="text-center">Forum only for members</h2>
+       <div class="d-flex justify-content-around align-items-end links border-top">
+        <a href="https://github.com/ViriCruz/MembersOnly"><i class="fab fa-github"></i> Github</a>
+<!--         <a href=""><i class="fas fa-heart"></i> Live Demo</a> -->
+       </div>
+      </article>
+     </div>
     </div>
-  </section>
-  </main>
-  <aside>
-  <div class="additional">
-    <div class="secondary-header mx-auto">
-    <h2>Additional work</h2>
-    </div>
-    
-    <ul class="work-items">
-    <li class="">
-      <a href="#" class="d-flex row align-items-end">
-      <div class="col-7">
-        <h2 class="work-title green-text">Steelseries</h2>
-        <span class="work-details work-role">Development, Design, UX</span>
-      </div>
-      <div class="col-4">
-        <span class="work-details work-company">Steelseries</span>
-      </div>
-      <div class="col-1">
-        <span class="work-details work-date">2017</span>
-      </div>
-      </a>
-    </li>
-      <li class="">
-      <a href="#" class="d-flex row align-items-end">
-      <div class="col-7">
-        <h2 class="work-title green-text">Steelseries</h2>
-        <span class="work-details work-role">Development, Design, UX</span>
-      </div>
-      <div class="col-4">
-        <span class="work-details work-company">Steelseries</span>
-      </div>
-      <div class="col-1">
-        <span class="work-details work-date">2017</span>
-      </div>
-      </a>
-    </li>
-      <li class="">
-      <a href="#" class="d-flex row align-items-end">
-      <div class="col-7">
-        <h2 class="work-title green-text">Steelseries</h2>
-        <span class="work-details work-role">Development, Design, UX</span>
-      </div>
-      <div class="col-4">
-        <span class="work-details work-company">Steelseries</span>
-      </div>
-      <div class="col-1">
-        <span class="work-details work-date">2017</span>
-      </div>
-      </a>
-    </li>
-      <li class="">
-      <a href="#" class="d-flex row align-items-end">
-      <div class="col-7">
-        <h2 class="work-title green-text">Steelseries</h2>
-        <span class="work-details work-role">Development, Design, UX</span>
-      </div>
-      <div class="col-4">
-        <span class="work-details work-company">Steelseries</span>
-      </div>
-      <div class="col-1">
-        <span class="work-details work-date">2017</span>
-      </div>
-      </a>
-    </li>
-      <li class="">
-      <a href="#" class="d-flex row align-items-end">
-      <div class="col-7">
-        <h2 class="work-title green-text">Steelseries</h2>
-        <span class="work-details work-role">Development, Design, UX</span>
-      </div>
-      <div class="col-4">
-        <span class="work-details work-company">Steelseries</span>
-      </div>
-      <div class="col-1">
-        <span class="work-details work-date">2017</span>
-      </div>
-      </a>
-    </li>
-      <li class="">
-      <a href="#" class="d-flex row align-items-end">
-      <div class="col-7">
-        <h2 class="work-title green-text">Steelseries</h2>
-        <span class="work-details work-role">Development, Design, UX</span>
-      </div>
-      <div class="col-4">
-        <span class="work-details work-company">Steelseries</span>
-      </div>
-      <div class="col-1">
-        <span class="work-details work-date">2017</span>
-      </div>
-      </a>
-    </li>
-    </ul>
-  </div>
-  </aside>
+   </section>
+   </div>
+   
+ </main>
   <footer>
-  <div class="social-container mx-auto">
+   <div class="social-container mx-auto">
     <div class="contact-me">
-    <h2>
-      Looking to start a project. <a href="#" class="green-text">Let's talk</a>  
-    </h2>
+     <h2>
+      Looking to start a project. <a href="mailto:viridiana.cruz.olivera@gmail.com" class="green-text">Let's talk</a>  
+     </h2>
     </div>
-    <div class="social-network">
-    <ul class="d-flex p-0 m-0">
+    <div class="social-network" id="contact">
+     <ul class="d-flex p-0 m-0">
       <li class="">
-      <a href="https://github.com/ViriCruz">Github</a>
+       <a href="https://github.com/ViriCruz">Github</a>
       </li>
       <li class="">
-      <a href="https://codepen.io/viricruz">Codepen</a>
+       <a href="https://codepen.io/viricruz">Codepen</a>
       </li>
       <li class="">
-      <a href="https://www.linkedin.com/in/gabriela-viridiana-cruz-olivera-b9495556/">LinkedIn</a>
+       <a href="https://www.linkedin.com/in/viricruz/">LinkedIn</a>
       </li>
       <li class="">
-      <a href="https://twitter.com/viri_cruz14">Twitter</a>
+       <a href="https://twitter.com/viri_cruz14">Twitter</a>
       </li>
       <li class="">
-      <a href="mailto:viridiana.cruz.olivera@gmail.com">Email</a>
+       <a href="mailto:viridiana.cruz.olivera@gmail.com">Email</a>
       </li>  
-    </ul>
+     </ul>
     </div>
-  </div>
-  </footer>
+   </div>
+ </footer>
+</body>
+</html>
+<!-- partial -->
+  
 </body>
 </html>
