@@ -1,157 +1,199 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - portfolio page</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
- <link href="https://fonts.googleapis.com/css?family=Coda&display=swap" rel="stylesheet">
- <script src="https://kit.fontawesome.com/fc8cc3c5c9.js" crossorigin="anonymous"></script>
-  <title>portfolio</title>
+  <link rel="stylesheet" href="./assets/custom.css">
+  <script src="https://kit.fontawesome.com/fc8cc3c5c9.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Coda&display=swap" rel="stylesheet">
+  
+  
+  <title>My Website</title>
 </head>
 <body>
   <header>
-    <navbar class="nav">
-      <div class="nav-container d-flex mx-2 row align-items-center w-100">
-        <div id="logo" class="col-8">
-
-        </div>
-        <div class="col-4">        
-          <ul class="d-flex ">
-            <li class="px-5">
-             <a href="#work" class="nav-menu-item text-decoration-none">Work</a><li>
-            <li class="px-5">
+    <navbar class="nav header-content mx-auto">
+      <div class="nav-container d-flex mx-2 row align-items-center w-100 justify-content-sm-center justify-content-md-end">
+        <div class="col-md-4 col-sm-6 nav-sections">        
+          <ul class="d-flex p-0">
+            <li class="w-50 text-center">
+             <a href="#work" class="nav-menu-item text-decoration-none">Work</a>
+            </li>
+            <li class="w-50 text-center">
              <a href="#contact" class="nav-menu-item text-decoration-none">Contact</a>
            </li>
           </ul>
         </div>
      </div>      
     </navbar>
-    <div class="mx-4 intro">
-      <h1>
-        I’m Gabriela Cruz, a <a href="https://github.com/ViriCruz" class="green-text">full stack web developer</a> living in Sonora, Mexico currently looking for a job.
-      </h1>
-    </div>
-    <div class="status d-flex row mx-2">
-      <div class="col-6">
-        <h3>Currently:</h3>
-        <p>looking for a job</p>
+    <div class="header-content mx-auto">
+      <div class="mx-4 intro">
+        <h1>
+          I’m Gabriela Cruz, a <a href="https://github.com/ViriCruz" class="custom-text">full stack web developer</a> living in Sonora, Mexico currently looking for a job.
+        </h1>
       </div>
-      <div class="col-6">
-        <h3>Previously:</h3>
-        <p>Making Code Hermosillo</p>
+      <div class="status d-flex row mx-2">
+        <div class="col-6">
+          <h3>Currently:</h3>
+          <p>looking for a job</p>
+        </div>
+        <div class="col-6">
+          <h3>Previously:</h3>
+          <p>Making Code Hermosillo</p>
+        </div>
       </div>
     </div>
   </header>
   <main>
    <div class="projects">
-     <img src="./bg.svg">
     <section class="projects-content mx-auto">
-    <div class="projects-container d-flex row flex-wrap justify-content-center">
-     <h2 class="col-12 px-0 text-center mb-3" id="work">Showcase</h2>
-     <div class="col-3 px-0 project">
-      <article>
-       <div class="img-container">
-        <img src="https://camo.githubusercontent.com/002dd0cc9e2a23d1373f1fbbc9ef47d00f1fb460/68747470733a2f2f6c68342e676f6f676c6575736572636f6e74656e742e636f6d2f56394a546d616f522d553173474e3041535466423575634b696c47495a58436e756878574a39525f65735954706251356e48683139584e4e6c7141636b306c347976765859754c435f4b35486d735f794248335033645964614643462d4c424237646d66655952333d7331353838" alt="weather-app">
-       </div>
-       <h2 class="text-center">Weather App</h2>
-       <div class="d-flex justify-content-around align-items-end links border-top">
-        <a href="https://github.com/ViriCruz/weather-app"><i class="fab fa-github"></i> Github</a>
-        <a href="https://viricruz.github.io/weather-app/"><i class="fas fa-heart"></i> Live Demo</a>
-       </div>
-      </article>
-     </div>
-     <div class="col-3 px-0 project">
-      <article>
-       <div class="img-container">
-        <img src="https://camo.githubusercontent.com/5aa17a3a9bd7574e378b01de6cef0e3c39893575/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f65567139544761613167577a2d54545a5865466f4a59702d786e4454325f7441687a677879754d4f7a447a3843734e6c4334597158324d6b5149356c4f4b48546869644459684b54444578644a684c6650314a7861664153684f4b327065786b7939376d444d44653d7331353838" alt="phaser-3-game">
-       </div>
-       <h2 class="text-center">RPG turn-based game with phaser 3</h2>
-       <div class="d-flex justify-content-around align-items-end links border-top">
-        <a href="https://github.com/ViriCruz/RPG_Game"><i class="fab fa-github"></i> Github</a>
-        <a href="https://morning-island-03937.herokuapp.com/"><i class="fas fa-heart"></i> Live Demo</a>
-       </div>
-      </article>
-     </div>
-     <div class="col-3 px-0 project">
-      <article>
-       <div class="img-container">
-        <img src="https://camo.githubusercontent.com/34944d26eadb9dc49565d6b756527e3dcb5c6d62/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f594d77394962564f376b4554684351764a6a2f67697068792e676966" alt="">
-       </div>
-       <h2 class="text-center">Restaurant Example Page</h2>
-       <div class="d-flex justify-content-around align-items-end links border-top">
-        <a href="https://github.com/ViriCruz/Restaurant"><i class="fab fa-github"></i> Github</a>
-        <a href="https://viricruz.github.io/Restaurant/"><i class="fas fa-heart"></i> Live Demo</a>
-       </div>
-      </article>
-     </div>
-     <div class="col-3 px-0 project">
-      <article>
-       <div class="img-container">
-        <img src="https://camo.githubusercontent.com/6dd7a5b29d1e3dec895a763f792787dfdd0fb440/68747470733a2f2f692e706f7374696d672e63632f627632786235476e2f436170747572652e706e67" alt="facebook basic features clone">
-       </div>
-       <h2 class="text-center">Facebook basic features clone</h2>
-       <div class="d-flex justify-content-around align-items-end links border-top">
-        <a href="https://github.com/ViriCruz/Fakebook"><i class="fab fa-github"></i> Github</a>
-        <a href="https://boiling-fjord-34486.herokuapp.com/"><i class="fas fa-heart"></i> Live Demo</a>
-       </div>
-      </article>
-     </div>
-     <div class="col-3 px-0 project">
-      <article>
-       <h2 class="text-center">Forum only for members</h2>
-       <div class="d-flex justify-content-around align-items-end links border-top">
-        <a href="https://github.com/ViriCruz/MembersOnly"><i class="fab fa-github"></i> Github</a>
-<!--         <a href=""><i class="fas fa-heart"></i> Live Demo</a> -->
-       </div>
-      </article>
-     </div>
-    </div>
-   </section>
-   </div>
+      <div class="projects-container d-flex row flex-wrap">
+        <h2 class="col-12 px-0 text-center" id="work">Projects</h2>
+        <div class="col-12"> 
+          <article class="d-flex flex-row justify-content-end project-card">
+            <img class="project-image d-sm-none d-xl-block" src="./assets/weather-app.PNG">
+            <div class="project-background d-sm-none d-xl-block"></div>
+            <div class="project-content">
+              <h2>Weather App</h2>
+              <p>
+                Search the current weather for any place, convert temperature between Celsius and Fahrenheit. This project makes use of Weather Api and Pexels Api, both are public.
+              </p>
+              <div class="d-flex flex-wrap">
+                <span class="stack">HTML5</span>
+                <span class="stack">CSS3</span>
+                <span class="stack">JavaScript ECMA6</span>
+                <span class="stack">Node.js</span>
+                <span class="stack">Webpack</span>
+              </div>
+              <div class="external-links">
+                <a class="project-link" href="https://viricruz.github.io/weather-app/">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                <a class="project-link secondary" href="https://github.com/ViriCruz/weather-app"><i class="fab fa-github"></i> View Source</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12"> 
+          <article class="d-flex flex-row justify-content-end project-card">
+            <img class="project-image d-sm-none d-xl-block" src="./assets/rpg-game.PNG">
+            <div class="project-background d-sm-none d-xl-block"></div>
+            <div class="project-content">
+              <h2>RPG turn-based game with phaser 3</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro veritatis modi, ducimus voluptatem voluptatibus labore, iure harum, possimus rerum at impedit architecto. Debitis nesciunt odio explicabo aut est amet dolorum?
+              </p>
+              <div class="d-flex flex-wrap">
+                <span class="stack">HTML</span>
+                <span class="stack">React</span>
+                <span class="stack">HTML</span>
+                <span class="stack">React</span>
+                <span class="stack">JavaScript</span>
+                <span class="stack ">React</span>
+              </div>
+              <div class="external-links">
+                <a class="project-link" href="https://morning-island-03937.herokuapp.com">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                <a class="project-link secondary" href="https://github.com/ViriCruz/RPG_Game"><i class="fab fa-github"></i> View Source</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12"> 
+          <article class="d-flex flex-row justify-content-end project-card">
+            <img class="project-image d-sm-none d-xl-block" src="./assets/restaurant.PNG">
+            <div class="project-background d-sm-none d-xl-block"></div>
+            <div class="project-content">
+              <h2>Restaurant Example Page</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro veritatis modi, ducimus voluptatem voluptatibus labore, iure harum, possimus rerum at impedit architecto. Debitis nesciunt odio explicabo aut est amet dolorum?
+              </p>
+              <div class="d-flex flex-wrap">
+                <span class="stack">HTML</span>
+                <span class="stack">React</span>
+                <span class="stack">HTML</span>
+                <span class="stack">React</span>
+                <span class="stack">JavaScript</span>
+                <span class="stack ">React</span>
+              </div>
+              <div class="external-links">
+                <a class="project-link" href="https://viricruz.github.io/Restaurant/">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                <a class="project-link secondary" href="https://github.com/ViriCruz/Restaurant"><i class="fab fa-github"></i> View Source</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12"> 
+          <article class="d-flex flex-row justify-content-end project-card">
+            <img class="project-image d-sm-none d-xl-block" src="./assets/fakebook.PNG">
+            <div class="project-background d-sm-none d-xl-block"></div>
+            <div class="project-content">
+              <h2>Facebook basic features clone</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro veritatis modi, ducimus voluptatem voluptatibus labore, iure harum, possimus rerum at impedit architecto. Debitis nesciunt odio explicabo aut est amet dolorum?
+              </p>
+              <div class="d-flex flex-wrap">
+                <span class="stack">HTML</span>
+                <span class="stack">React</span>
+                <span class="stack">HTML</span>
+                <span class="stack">React</span>
+                <span class="stack">JavaScript</span>
+                <span class="stack ">React</span>
+              </div>
+              <div class="external-links">
+                <a class="project-link" href="https://boiling-fjord-34486.herokuapp.com/">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                <a class="project-link secondary" href="https://github.com/ViriCruz/Fakebook"><i class="fab fa-github"></i> View Source</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 px-0 project">
+          <article>
+          <h2 class="text-center">Forum only for members</h2>
+          <div class="d-flex justify-content-around align-items-end links border-top">
+            <a href="https://github.com/ViriCruz/MembersOnly"><i class="fab fa-github"></i> Github</a>
+    <!--         <a href=""><i class="fas fa-heart"></i> Live Demo</a> -->
+          </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </div>
    
  </main>
   <footer>
-   <div class="social-container mx-auto">
+   <div class="social-container mx-auto text-center">
     <div class="contact-me">
      <h2>
-      Looking to start a project. <a href="mailto:viridiana.cruz.olivera@gmail.com" class="green-text">Let's talk</a>  
+      Looking to start a project. <a href="mailto:viridiana.cruz.olivera@gmail.com" class="custom-text d-md-inline">Let's talk</a>  
      </h2>
     </div>
-    <div class="social-network" id="contact">
-     <ul class="d-flex p-0 m-0">
-      <li class="">
+    <div class="social-network d-flex justify-content-center" id="contact">
+     <ul class="d-flex p-0 m-0 flex-column flex-md-row">
+      <li class="py-3 py-md-0 mr-sm-0 mr-md-4">
        <a href="https://github.com/ViriCruz">Github</a>
       </li>
-      <li class="">
+      <li class="py-3 py-md-0 mr-sm-0 mr-md-4">
        <a href="https://codepen.io/viricruz">Codepen</a>
       </li>
-      <li class="">
+      <li class="py-3 py-md-0 mr-sm-0 mr-md-4">
        <a href="https://www.linkedin.com/in/viricruz/">LinkedIn</a>
       </li>
-      <li class="">
+      <li class="py-3 py-md-0 mr-sm-0 mr-md-4">
        <a href="https://twitter.com/viri_cruz14">Twitter</a>
       </li>
-      <li class="">
+      <li class="py-3 py-md-0 mr-sm-0 mr-md-4">
        <a href="mailto:viridiana.cruz.olivera@gmail.com">Email</a>
       </li>  
      </ul>
     </div>
    </div>
+   <div class="copyright">
+      Made by Gabriela Cruz © 2020
+   </div>
  </footer>
-</body>
-</html>
-<!-- partial -->
-  
 </body>
 </html>
