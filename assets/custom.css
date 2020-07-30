@@ -106,7 +106,7 @@ a{
   margin-right: 20px;
   margin-top: 20px;
   display: inline-block;
-  background-color: #747fe0;
+  background-color: #5865DA;
   color: #fff;
   line-height: 40px;
   padding: 0 14px;
@@ -123,11 +123,11 @@ a{
 }
 
 .project-link.secondary i {
-  color: #747fe0;
+  color: #5865DA;
 } 
 
 .project-link:hover {
-  background: #7795f8;
+  background: #5865DA;
   color: #fff;
   transform: translateY(-1px);
   box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
@@ -135,7 +135,7 @@ a{
 
 .project-link.secondary:hover{
   background: #fff;
-  color: #747fe0;
+  color: #5865DA;
 }
 
 .project h2 {
@@ -154,7 +154,7 @@ a{
 }
 
 .project-link.secondary {
-  color: #747fe0;
+  color: #5865DA;
   background: #fff;
 }
 
