@@ -200,13 +200,13 @@ a{
 
 .custom-text{
   color: #7510F7;
-  transition: .1s ease-in-out;;
+  transition: .1s ease-in-out;
+  text-decoration: underline;
 }
 
 .custom-text:hover{
   opacity: .9;
   color: #7510F7;
-  text-decoration: none;
 }
 
 .status h3{
