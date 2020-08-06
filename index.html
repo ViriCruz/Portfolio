@@ -13,7 +13,8 @@
   <title>My Website</title>
 </head>
 <body>
-  <header>
+  <header class="hero-container">
+    <div class="layer"></div>
     <navbar class="nav header-content mx-auto">
       <div class="nav-container d-flex mx-2 row align-items-center w-100 justify-content-sm-center justify-content-md-end">
         <div class="col-md-4 col-sm-6 nav-sections">        
@@ -31,13 +32,25 @@
     <div class="header-content mx-auto">
       <div class="mx-4 intro">
         <h1>
-          I’m Gabriela Cruz, a <a href="https://github.com/ViriCruz" target="_blank" class="custom-text">full stack web developer</a> living in Sonora, Mexico currently looking for a job.
+          I’m Gabriela Cruz, a <span class="custom-text">full stack web developer</span> living in Sonora, Mexico currently looking for a job.
         </h1>
         <nav class="top-social-links">
           <ul class="d-flex justify-content-center px-0">
-            <li class="mr-3"><i class="fab fa-github"></i></li>
-            <li class="mr-3"><i class="fab fa-linkedin"></i></li>
-            <li><i class="fab fa-twitter-square"></i></li>
+            <li class="mr-3">
+              <a href="https://github.com/ViriCruz" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li class="mr-3">
+              <a href="https://www.linkedin.com/in/viricruz/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/viri_cruz14" target="_blank">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -66,7 +79,7 @@
             <div class="project-content">
               <h2>Basic catalog with React</h2>
               <p>
-                This project is a basic pokemon catalog that has a browsable list of pokemon, depending on the pokemon type that you select. Also, you can check in more detail if you click on a pokemon.
+                This project is a basic Pokemon catalog that has a browsable list of Pokemon, depending on the Pokemon type that you select. Also, you can see more details if you click on a Pokemon.
               </p>
               <div class="d-flex flex-wrap">
                 <span class="stack">React 16</span>
@@ -88,9 +101,9 @@
             <img class="project-image d-sm-none d-xl-block" src="./assets/books.PNG" alt="Categories screenshot of the tracking app.">
             <div class="project-background d-sm-none d-xl-block"></div>
             <div class="project-content">
-              <h2>Tracking mobile web app with react</h2>
+              <h2>Tracking mobile web app with React</h2>
               <p>
-                This project is a tracking app to measure how much do you read during a day. Taking in count only: books, articles, audiobooks, mangas, and comics. This is a manual tracking to acquire the habit of reading.
+                This project is a tracking app to measure how much you read during a day. Taking into account only: books, articles, audiobooks, mangas, and comics. This is a manual tracking to acquire the habit of reading.
               </p>
               <div class="d-flex flex-wrap">
                 <span class="stack">React 16</span>
@@ -117,7 +130,7 @@
             <div class="project-content">
               <h2>Weather App</h2>
               <p>
-                Search the current weather for any place, convert temperature between Celsius and Fahrenheit. This project makes use of Weather Api and Pexels Api, both are public.
+                Search the current weather for any place and convert temperature between Celsius and Fahrenheit. This project makes use of Weather API and Pexels API, both are public.
               </p>
               <div class="d-flex flex-wrap">
                 <span class="stack">HTML5</span>
@@ -141,7 +154,7 @@
             <div class="project-content">
               <h2>RPG turn-based game with Phaser 3</h2>
               <p>
-                Small game using Phaser 3, destroy the enemies that are around the map.
+                This is a small game using Phaser 3, where you will face many enemies around the map. Destroy'em all!
               </p>
               <div class="d-flex flex-wrap">
                 <span class="stack">JavaScript ECMA6</span>
@@ -164,7 +177,7 @@
             <div class="project-content">
               <h2>Restaurant Example Page</h2>
               <p>
-                This is a basic demo restaurant page, it was built based on the Webpack and modules section in The Odin Project’s JavaScript Curriculum.
+                This is a basic demo restaurant page. It was built based on the Webpack and modules section in The Odin Project’s JavaScript Curriculum.
               </p>
               <div class="d-flex flex-wrap">
                 <span class="stack">JavaScript ECMA6</span>
@@ -209,7 +222,7 @@
    <div class="social-container mx-auto text-center">
     <div class="contact-me">
      <h2>
-      Looking to start a project. <a href="mailto:viridiana.cruz.olivera@gmail.com" class="custom-text d-md-inline">Let's talk</a>  
+      Looking to start a project? <a href="mailto:viridiana.cruz.olivera@gmail.com" class="custom-text d-md-inline">Let's talk</a>  
      </h2>
     </div>
     <div class="social-network d-flex justify-content-center" id="contact">

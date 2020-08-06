@@ -19,6 +19,24 @@ svg {
   width: 114px
 }
 
+/* hero container */
+.hero-container {
+  background-image: url('./hero-image.jpg');
+  background-position: 100% 100%;
+  background-size: cover;
+  font-weight: 600 !important;
+  position: relative;
+}
+
+.layer {
+  background-color: rgb(28 11 29 / 70%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 ul{
   list-style: none
 }
@@ -48,7 +66,7 @@ a{
  font-size: 25px;
  letter-spacing: 2px;
  text-transform: uppercase;
- color: rgba(0,0,0,0.7);
+ color: rgba(255,255,255,0.7);
  font-weight: bold;
  transition: all .2s ease-in-out;
 }
@@ -188,6 +206,7 @@ a{
 .intro{
  line-height: 68px;
  font-size: 2.8rem;
+ position: relative;
 }
 
 .intro h1{
@@ -196,10 +215,20 @@ a{
  line-height: 68px;
  font-size: 2.5rem;
  max-width: 840px;
+ color: #fff;
+}
+
+.intro .custom-text {
+  color: #F58B7F;
+  font-weight: 600;
 }
 
 .top-social-links {
   margin-bottom: 2em;
+}
+
+.top-social-links i {
+  color: #fff
 }
 
 .top-social-links p {
@@ -212,12 +241,15 @@ a{
 .custom-text{
   color: #7510F7;
   transition: .1s ease-in-out;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+.contact-me .custom-text:hover {
+  color: #7510F7;
 }
 
 .custom-text:hover{
   opacity: .9;
-  color: #7510F7;
 }
 
 .status h3{
@@ -226,6 +258,7 @@ a{
  text-transform: uppercase;
  font-size: 0.9rem;
  font-weight: 400;
+ color: #fff;
 }
 
 .status svg{
@@ -233,7 +266,7 @@ a{
 }
 
 .nav-menu-item{
- color: #5d5d5d;
+ color: #fff;
 }
 
 .nav-menu-item:hover{
@@ -328,12 +361,12 @@ aside li:hover a, aside li:hover .work-title{
  width: 100%;
 }
 
-.social-network ul li{
- transition: all .3s ease;
+.social-network ul li, .top-social-links ul li{
+  transition: all .3s ease;
 }
 
-.social-network ul li:hover{
-     transform: translateY(-3px);
+.social-network ul li:hover, .top-social-links ul li:hover{
+  transform: translateY(-3px);
 }
 
 .contact-me h2{
