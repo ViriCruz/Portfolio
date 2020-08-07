@@ -106,8 +106,7 @@ a{
 }
 
 .project-image{
-  width: 80%;
-  position: absolute!important;
+  position: absolute !important;
   top: 0;
   left: 0;
 }
@@ -436,8 +435,30 @@ aside li:hover a, aside li:hover .work-title{
 }
 
 @media (max-width: 1200px) {
+  
+}
+
+@media (max-width: 992px) {
   .project-content {
+    width: 52%;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 768px){
+  .project-image {
+    z-index: 5
+  }
+
+  .project-card {
+    flex-direction: column !important;
+  }
+
+  .project-content {
+    z-index: 5;
     width: 100%;
+    margin-top: 280px;
+    padding-left: 60px;
   }
 }
 
